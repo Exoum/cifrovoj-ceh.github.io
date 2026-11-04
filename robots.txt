@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://exoum.github.io/cifrovoj-ceh.github.io/sitemap.xml
