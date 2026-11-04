@@ -1,8 +1,26 @@
 # Цифровой цех — сайт-портфолио
 
-Статичный сайт мастерской «Цифровой цех»: презентации, карточки маркетплейсов, каталоги.
+Статичный сайт дизайн-мастерской «Цифровой цех»: презентации, карточки для маркетплейсов, каталоги и полиграфия.
 
-- Сайт: https://exoum.github.io/cifrovoj-ceh.github.io/
-- Telegram: [@cifrovoj_ceh](https://t.me/cifrovoj_ceh)
+**Сайт:** https://exoum.github.io/cifrovoj-ceh.github.io/
+**Telegram:** [@cifrovoj_ceh](https://t.me/cifrovoj_ceh)
 
-Чистые HTML + CSS + vanilla JS, без конструкторов и внешних зависимостей (кроме Google Fonts). Публикуется через GitHub Pages.
+## Стек
+
+Чистые HTML + CSS + vanilla JS — без конструкторов, сборщиков и внешних зависимостей (кроме Google Fonts). Публикуется через GitHub Pages.
+
+## Структура
+
+```
+index.html                 одна страница: работы, цены, процесс, продукты, контакты
+css/style.css              базовые стили
+css/products.css           секция «Продукты»
+js/main.js                 плавное появление секций, год в футере
+assets/img/                работы и превью продуктов
+assets/logo/               логотип (SVG + PNG)
+robots.txt, sitemap.xml    SEO
+```
+
+## Локальный запуск
+
+Открыть `index.html` в браузере — сайт самодостаточный, сборка не нужна.
