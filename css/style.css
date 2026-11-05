@@ -71,6 +71,9 @@ h2{font-size:clamp(30px,4.5vw,44px);margin-bottom:14px}
 .work figcaption{padding:16px 18px;display:flex;flex-direction:column;gap:4px}
 .work figcaption strong{font-size:15px;font-weight:700}
 .work figcaption span{font-size:13px;color:var(--muted)}
+.work-cta{text-decoration:none;color:var(--text);display:flex;align-items:center;justify-content:center;padding:26px;background:linear-gradient(135deg,var(--panel),#10151C);border-color:var(--line-2)}
+.work-cta strong{font-size:16px}
+.work-cta span{margin-top:6px}
 
 /* --- услуги --- */
 .cards-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
