@@ -109,6 +109,23 @@ h2{font-size:clamp(30px,4.5vw,44px);margin-bottom:14px}
 .contacts .lead{margin-left:auto;margin-right:auto}
 .contacts-actions{justify-content:center}
 
+/* === Форма заявки (секция контактов) === */
+.lead-form{max-width:640px;margin:40px auto 0;text-align:left;background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:28px}
+.lead-form label{display:block;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:14px}
+.lead-form input,.lead-form select,.lead-form textarea{display:block;width:100%;margin-top:8px;background:var(--panel-2);border:1px solid var(--line-2);border-radius:10px;color:var(--text);font:inherit;font-size:15px;text-transform:none;letter-spacing:normal;padding:12px 14px;outline:none;transition:border-color .15s}
+.lead-form input:focus,.lead-form select:focus,.lead-form textarea:focus{border-color:var(--accent)}
+.lead-form textarea{resize:vertical;min-height:88px}
+.lf-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.lf-submit{width:100%;margin-top:6px;cursor:pointer}
+.lf-submit[disabled]{opacity:.55;cursor:wait}
+.lf-note{font-size:13px;color:var(--muted);margin:16px 0 0;letter-spacing:normal;text-transform:none}
+.lf-note a{color:var(--accent);text-decoration:none}
+.lf-note a:hover{text-decoration:underline}
+.lf-status{font-size:14px;margin:14px 0 0;letter-spacing:normal;text-transform:none;color:var(--accent)}
+.lf-status.err{color:#FF7A6B}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;opacity:0}
+@media (max-width:520px){.lf-row{grid-template-columns:1fr;gap:0}}
+
 /* --- футер --- */
 footer{border-top:1px solid var(--line);padding:26px 0;color:var(--muted);font-size:13px}
 .foot-row{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
