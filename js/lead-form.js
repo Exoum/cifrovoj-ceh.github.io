@@ -59,9 +59,10 @@
           throw new Error((res && res.error) || 'unknown');
         }
       })
-      .catch(function () {
+      .catch(function (err) {
         submitBtn.disabled = false;
-        show('Не получилось отправить. Напишите напрямую: t.me/cifrovoj_ceh', true);
+        var why = (err && err.message) ? ' (' + err.message + ')' : '';
+        show('Не получилось отправить' + why + '. Напишите напрямую: t.me/cifrovoj_ceh', true);
       });
   });
 })();
