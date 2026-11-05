@@ -1,0 +1,10 @@
+# Secrets / confidential
+*.env
+service_account.json
+*.pem
+*.key
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/

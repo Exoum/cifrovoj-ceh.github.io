@@ -3,9 +3,9 @@
 
 // 1. Username бота-приёмной (создать у @BotFather), без @.
 //    Пусто — кнопки ведут в канал @cifrovoj_ceh (как раньше).
-var BOT_USERNAME = '';
+var BOT_USERNAME = 'cifrovoj_ceh_bot';
 
 // 2. URL Cloudflare Worker (см. worker/README.md), например:
 //    'https://cifrovoj-ceh-leads.xxx.workers.dev'
 //    Пусто — форма покажет подсказку «напишите в Telegram» вместо отправки.
-var LEAD_ENDPOINT = '';
+var LEAD_ENDPOINT = 'https://cifrovoj-ceh-leads.cifrovoj-ceh-leads.workers.dev';
