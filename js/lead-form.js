@@ -38,10 +38,13 @@
       return;
     }
 
+    // LEAD_ENDPOINT — базовый URL воркера; форма шлёт на его маршрут /api/lead
+    var endpoint = String(window.LEAD_ENDPOINT || '').replace(/\/+$/, '') + '/api/lead';
+
     submitBtn.disabled = true;
     show('Отправляю…', false);
 
-    fetch(window.LEAD_ENDPOINT, {
+    fetch(endpoint, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(data),
