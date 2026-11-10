@@ -345,10 +345,39 @@
   </div>
 </footer>
 
+<div class="pv-overlay" id="pv-overlay" aria-hidden="true">
+  <div class="pv-modal" role="dialog" aria-modal="true" aria-label="Предпросмотр товара">
+    <button class="pv-close" type="button" aria-label="Закрыть">&times;</button>
+    <div class="pv-gallery">
+      <div class="pv-stage">
+        <button class="pv-nav pv-prev" type="button" aria-label="Предыдущий">&lsaquo;</button>
+        <img class="pv-img" src="" alt="Пример шаблона">
+        <button class="pv-nav pv-next" type="button" aria-label="Следующий">&rsaquo;</button>
+        <span class="pv-count"></span>
+      </div>
+      <div class="pv-thumbs"></div>
+    </div>
+    <div class="pv-side">
+      <span class="prod-tag pv-tag"></span>
+      <h3 class="pv-title"></h3>
+      <p class="pv-lead">Что внутри:</p>
+      <ul class="pv-bullets"></ul>
+      <div class="pv-price-row">
+        <span class="prod-price pv-price"></span>
+        <span class="shop-price-sub pv-sub"></span>
+      </div>
+      <a class="btn-prod pv-buy" href="#" target="_blank" rel="noopener">Купить в боте</a>
+      <p class="pv-note">Оплата через ЮKassa · архив придёт в чат · возврат 14 дней</p>
+      <button class="pv-bundle-link" type="button">Или весь набор за 3 990 ₽ вместо 5 900 ₽ &rarr;</button>
+    </div>
+  </div>
+</div>
+
 <script src="js/site-config.js"></script>
 <script src="js/metrika-init.js"></script>
 <script src="js/main.js"></script>
 <script src="js/lead-links.js"></script>
+<script src="js/shop-preview.js"></script>
 <script src="js/lead-form.js"></script>
 </body>
 </html>
