@@ -87,3 +87,22 @@ body.lb-lock{overflow:hidden}
 .ic-c4{color:#EDEFF2}
 @media (max-width:900px){.icons-grid{grid-template-columns:repeat(4,1fr)}}
 @media (max-width:640px){.icons-grid{grid-template-columns:repeat(3,1fr);gap:10px}}
+
+/* === Магазин на главной (v4.0): бандл + список из 10 === */
+.shop-bundle{margin-top:48px;background:linear-gradient(135deg,rgba(255,184,77,.12),rgba(255,138,61,.05));border:1px solid rgba(255,184,77,.35);border-radius:18px;padding:30px 34px;display:flex;gap:28px;align-items:center;justify-content:space-between}
+.shop-bundle-info{max-width:560px}
+.shop-bundle h3{font-family:var(--font-display);font-weight:600;font-size:27px;line-height:1.2;color:#EDEFF2;margin:10px 0 8px}
+.shop-bundle p{font-size:14px;line-height:1.6;color:#98A2B3;margin:0}
+.shop-bundle-buy{display:flex;flex-direction:column;align-items:flex-end;gap:8px;flex-shrink:0;text-align:right}
+.shop-bundle-buy .btn-prod{margin-top:6px}
+.shop-price-sub{font-size:11.5px;font-weight:600;color:#98A2B3}
+.shop-list{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:20px}
+.shop-item{background:#141A22;border:1px solid rgba(237,239,242,.08);border-radius:14px;padding:18px 22px;display:flex;align-items:center;justify-content:space-between;gap:18px;transition:border-color .2s ease}
+.shop-item:hover{border-color:rgba(255,184,77,.4)}
+.shop-item h4{font-size:16px;font-weight:700;color:#EDEFF2;margin:0 0 5px}
+.shop-item p{font-size:13px;line-height:1.5;color:#98A2B3;margin:0}
+.shop-item-buy{display:flex;flex-direction:column;align-items:flex-end;gap:6px;flex-shrink:0}
+.shop-price{font-family:var(--font-display);font-weight:600;font-size:20px;color:#FFB84D;line-height:1}
+.shop-item .btn-prod{padding:9px 18px;font-size:11px}
+@media (max-width:1000px){.shop-list{grid-template-columns:1fr}.shop-bundle{flex-direction:column;align-items:flex-start}}
+@media (max-width:640px){.shop-bundle{padding:24px}.shop-bundle h3{font-size:22px}.shop-bundle-buy{align-items:flex-start;text-align:left}.shop-item{flex-wrap:wrap}.shop-item-buy{flex-direction:row;align-items:center;width:100%;justify-content:space-between}}

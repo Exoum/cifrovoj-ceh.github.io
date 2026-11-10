@@ -1,0 +1,6 @@
+﻿shop-item: 10
+shop-bundle: 0
+prod-card: 0
+section: 6/6
+div: 65/65
+payloads: site_index,site_index,shop_bundle,shop_pres_tpl,shop_kp,shop_resume,shop_price,shop_card,shop_social,shop_checklist,shop_invoice,shop_scripts,shop_bg,site_index,site_index

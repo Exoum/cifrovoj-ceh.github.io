@@ -1,0 +1,146 @@
+﻿        <figcaption><strong>Каталог ТИТАН ПРЕСС — обложка</strong><span>Каталог · PDF · векторная иллюстрация техники</span></figcaption>
+      </figure>
+      <figure class="work reveal">
+        <div class="work-img"><img src="assets/img/catalog_titan_spread.png" alt="Разворот каталога ТИТАН ПРЕСС с таблицей линейки"></div>
+        <figcaption><strong>Каталог ТИТАН ПРЕСС — разворот линейки</strong><span>Каталог · таблица на 8 моделей, собирается из данных</span></figcaption>
+      </figure>
+      <figure class="work reveal">
+        <div class="work-img"><img src="assets/img/slide_greenbox_01.png" alt="Титульный слайд питч-дека GreenBox"></div>
+        <figcaption><strong>Питч-дек GreenBox — титул</strong><span>Презентация · PPTX · тёмная тема</span></figcaption>
+      </figure>
+      <figure class="work reveal">
+        <div class="work-img"><img src="assets/img/slide_greenbox_02.png" alt="Слайд финмодели питч-дека GreenBox"></div>
+        <figcaption><strong>Питч-дек GreenBox — финмодель</strong><span>Презентация · графики и таблицы из данных</span></figcaption>
+      </figure>
+      <figure class="work reveal">
+        <div class="work-img"><img src="assets/img/card_wb_01.png" alt="Инфографика карточки товара Wildberries"></div>
+        <figcaption><strong>Карточка Wildberries — инфографика</strong><span>Маркетплейсы · главное изображение товара</span></figcaption>
+      </figure>
+      <figure class="work reveal">
+        <div class="work-img"><img src="assets/img/card_wb_02.png" alt="Сценарный слайд карточки товара Wildberries"></div>
+        <figcaption><strong>Карточка Wildberries — сценарий</strong><span>Маркетплейсы · карточка, продающая сценарий</span></figcaption>
+      </figure>
+      <a class="work work-cta reveal" href="https://t.me/cifrovoj_ceh" data-bot="site_index">
+        <div><strong>Больше работ — в Telegram-канале</strong><span>Полные кейсы, до/после и разборы карточек для WB и Ozon → @cifrovoj_ceh</span></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="services">
+  <div class="container">
+    <p class="kicker reveal">Прайс</p>
+    <h2 class="reveal">Услуги и цены</h2>
+    <p class="section-sub reveal">Точная смета — после короткого брифа. Цены ниже — типовые отправные точки.</p>
+    <div class="cards-grid">
+      <article class="card reveal">
+        <h3>Презентация</h3>
+        <p>Питч-деки, коммерческие и отчётные презентации. Структура, дизайн, сборка в PPTX с редактируемым текстом.</p>
+        <div class="price-row"><span class="price">от 3 000 ₽</span><span class="term">10–12 слайдов · 2–3 дня</span></div>
+      </article>
+      <article class="card reveal">
+        <h3>Карточка для маркетплейса</h3>
+        <p>Wildberries и Ozon: главная инфографика и сценарные слайды под требования площадки.</p>
+        <div class="price-row"><span class="price">от 500 ₽</span><span class="term">за слайд · от 1 дня</span></div>
+      </article>
+      <article class="card reveal">
+        <h3>Каталог / многостраничный PDF</h3>
+        <p>Каталоги продукции и брошюры: сетка, таблицы характеристик, PDF ровно в формат печати.</p>
+        <div class="price-row"><span class="price">от 9 000 ₽</span><span class="term">5–10 дней</span></div>
+      </article>
+      <article class="card reveal">
+        <h3>Флаер / листовка</h3>
+        <p>Рекламные и информационные листовки A5–A4, готовые к типографии файлы.</p>
+        <div class="price-row"><span class="price">от 1 500 ₽</span><span class="term">1–2 дня</span></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="process">
+  <div class="container">
+    <p class="kicker reveal">Как работается</p>
+    <h2 class="reveal">Процесс</h2>
+    <p class="section-sub reveal">Скорость — не спешка, а конвейер: сетку, таблицы и иллюстрации собирает пайплайн, дизайн-решения принимает человек.</p>
+    <ol class="steps">
+      <li class="step reveal"><span class="step-num">01</span><h3>Бриф</h3><p>Пять вопросов и пятнадцать минут. Понимаю задачу, аудиторию и формат сдачи.</p></li>
+      <li class="step reveal"><span class="step-num">02</span><h3>Концепт</h3><p>Структура и визуальный стиль. Согласуем до производства — правки на этом этапе быстрые и бесплатные.</p></li>
+      <li class="step reveal"><span class="step-num">03</span><h3>Производство</h3><p>Иллюстрации, вёрстка, рендер. Всё собирается из исходников, а не рисуется «руками» по кругу.</p></li>
+      <li class="step reveal"><span class="step-num">04</span><h3>Сдача</h3><p>Файлы в нужных форматах: PDF для печати, PPTX для выступлений, PNG для веба. Правки — в исходник.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="section" id="products">
+  <div class="container">
+    <p class="kicker reveal">Готовые продукты</p>
+    <h2 class="reveal">Продукты цеха</h2>
+    <p class="section-sub reveal">Сделано один раз — работает у вас. Покупка и выдача в Telegram: оплата — файл сразу.</p>
+    <div class="prod-grid">
+      <article class="prod-card reveal on">
+        <a class="prod-link" href="product-presentation.html" aria-label="Шаблон бизнес-презентации — посмотреть целиком">
+          <div class="prod-img"><img src="assets/img/prod_presentation.png" alt="Шаблон бизнес-презентации"></div>
+        </a>
+        <div class="prod-body">
+          <span class="prod-tag">PPTX · 12 слайдов · 3 палитры</span>
+          <h3><a href="product-presentation.html">Шаблон бизнес-презентации</a></h3>
+          <p>Собран на той же системе, что заказные презентации: меняете текст и цифры — сетка, шрифты и графика уже работают.</p>
+          <div class="prod-price-row"><span class="prod-price">990 ₽</span><a class="btn-prod" href="https://t.me/cifrovoj_ceh" data-bot="site_index" target="_blank" rel="noopener">Купить</a></div>
+          <a class="prod-more" href="product-presentation.html">Смотреть целиком →</a>
+        </div>
+      </article>
+      <article class="prod-card reveal on">
+        <a class="prod-link" href="product-cards.html" aria-label="Пакет шаблонов карточек WB и Ozon — посмотреть целиком">
+          <div class="prod-img"><img src="assets/img/prod_cards.png" alt="Пакет шаблонов карточек WB и Ozon"></div>
+        </a>
+        <div class="prod-body">
+          <span class="prod-tag">12 слайдов · HTML-исходники</span>
+          <h3><a href="product-cards.html">Пакет шаблонов карточек WB/Ozon</a></h3>
+          <p>Готовый сценарий: оффер → состав → возражения. Меняете текст и фото — рендер в точные форматы площадки.</p>
+          <div class="prod-price-row"><span class="prod-price">790 ₽</span><a class="btn-prod" href="https://t.me/cifrovoj_ceh" data-bot="site_index" target="_blank" rel="noopener">Купить</a></div>
+          <a class="prod-more" href="product-cards.html">Смотреть целиком →</a>
+        </div>
+      </article>
+      <article class="prod-card reveal on">
+        <a class="prod-link" href="product-icons.html" aria-label="SVG-пакет иконок для инфографики — посмотреть целиком">
+          <div class="prod-img"><img src="assets/img/prod_icons.png" alt="SVG-пакет иконок для инфографики"></div>
+        </a>
+        <div class="prod-body">
+          <span class="prod-tag">16 SVG · stroke 2 · лицензия MIT</span>
+          <h3><a href="product-icons.html">Иконки для инфографики</a></h3>
+          <p>Единая сетка 24 и согласованное начертание. Цвет наследуется — перекрашивается одним CSS-каскадом.</p>
+          <div class="prod-price-row"><span class="prod-price">590 ₽</span><a class="btn-prod" href="https://t.me/cifrovoj_ceh" data-bot="site_index" target="_blank" rel="noopener">Купить</a></div>
+          <a class="prod-more" href="product-icons.html">Смотреть целиком →</a>
+        </div>
+      </article>
+      <article class="prod-card reveal on">
+        <a class="prod-link" href="product-guide.html" aria-label="Гайд «5 ошибок в карточках WB и Ozon» — посмотреть целиком">
+          <div class="prod-img"><img src="assets/img/prod_guide.png" alt="Гайд: 5 ошибок в карточках Wildberries и Ozon"></div>
+        </a>
+        <div class="prod-body">
+          <span class="prod-tag">PDF · 9 страниц · чек-лист</span>
+          <h3><a href="product-guide.html">Гайд «5 ошибок в карточках WB/Ozon»</a></h3>
+          <p>Симптом → причина → лечение. Плюс чек-лист из 12 пунктов для самопроверки карточки перед загрузкой.</p>
+          <div class="prod-price-row"><span class="prod-price">290 ₽</span><a class="btn-prod" href="https://t.me/cifrovoj_ceh" data-bot="site_index" target="_blank" rel="noopener">Купить</a></div>
+          <a class="prod-more" href="product-guide.html">Смотреть целиком →</a>
+        </div>
+      </article>
+      <article class="prod-card reveal on">
+        <a class="prod-link" href="product-catalog.html" aria-label="Шаблон каталога продукции — посмотреть целиком">
+          <div class="prod-img"><img src="assets/img/catalog_titan_cover.png" alt="Шаблон каталога продукции"></div>
+        </a>
+        <div class="prod-body">
+          <span class="prod-tag">HTML → PDF · A4 · данные</span>
+          <h3><a href="product-catalog.html">Шаблон каталога продукции</a></h3>
+          <p>Таблицы из данных и рендер в точные размеры: правки вносятся в исходник, а не в слои. 40 позиций = 40 строк.</p>
+          <div class="prod-price-row"><span class="prod-price">1490 ₽</span><a class="btn-prod" href="https://t.me/cifrovoj_ceh" data-bot="site_index" target="_blank" rel="noopener">Купить</a></div>
+          <a class="prod-more" href="product-catalog.html">Смотреть целиком →</a>
+        </div>
+      </article>
+    </div>
+    <p class="prod-note reveal">Для подписчиков канала — скидка 50% на шаблон презентации по закрепу №3. Оплата СБП, чек и файл — в Telegram.</p>
+  </div>
+</section>
+
+<section class="section contacts" id="contacts">
+  <div class="container">
