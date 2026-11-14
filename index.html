@@ -298,6 +298,43 @@
   </div>
 </section>
 
+<section class="section" id="ideas">
+  <div class="container">
+    <p class="kicker reveal">Идеи и отзывы</p>
+    <h2 class="reveal">Что сделать <em>дальше?</em></h2>
+    <p class="lead reveal">Каталог растёт из ваших идей. Купили шаблон — расскажите, что понравилось и что поправить. Не хватает чего-то — предложите: свежие идеи делаю в первую очередь.</p>
+    <form class="lead-form reveal" id="feedback-form" data-source="site_feedback" novalidate>
+      <input type="text" name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <div class="lf-row">
+        <label>Тип
+          <select name="type">
+            <option value="idea">💡 Идея нового шаблона</option>
+            <option value="review">⭐ Отзыв о купленном шаблоне</option>
+            <option value="other">💬 Другое — о боте и сервисе</option>
+          </select>
+        </label>
+        <label>Шаблон
+          <input type="text" name="product" maxlength="80" placeholder="Например: карточки WB — если отзыв о конкретном шаблоне">
+        </label>
+      </div>
+      <div class="lf-row">
+        <label>Как вас зовут
+          <input type="text" name="name" maxlength="60" placeholder="Необязательно">
+        </label>
+        <label>Контакт для ответа
+          <input type="text" name="contact" maxlength="80" placeholder="Telegram / e-mail — необязательно">
+        </label>
+      </div>
+      <label>Идея или отзыв
+        <textarea name="message" maxlength="1000" rows="3" placeholder="Пара предложений — уже польза" required></textarea>
+      </label>
+      <button class="btn lf-submit" type="submit">Отправить</button>
+      <p class="lf-status" hidden></p>
+      <p class="lf-note">Пишется в тот же журнал, что и кнопка «💡 Идея / отзыв» в боте. Или сразу в Telegram: <a href="https://t.me/cifrovoj_ceh" data-bot="site_feedback" target="_blank" rel="noopener">@cifrovoj_ceh</a></p>
+    </form>
+  </div>
+</section>
+
 <section class="section contacts" id="contacts">
   <div class="container">
     <p class="kicker reveal">Контакты</p>
@@ -378,5 +415,6 @@
 <script src="js/lead-links.js"></script>
 <script src="js/shop-preview.js"></script>
 <script src="js/lead-form.js"></script>
+<script src="js/feedback-form.js"></script>
 </body>
 </html>

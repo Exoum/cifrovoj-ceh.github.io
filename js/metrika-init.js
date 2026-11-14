@@ -34,9 +34,11 @@
     if (el) goal('buy_click', { product: el.getAttribute('data-bot'), page: location.pathname });
   }, true);
 
-  // Цель: отправка формы заявки.
+  // Цели: отправка формы заявки и формы идеи/отзыва.
   document.addEventListener('submit', function (ev) {
     var f = ev.target;
-    if (f && (f.id === 'lead-form' || f.hasAttribute('data-lead'))) goal('lead_form');
+    if (!f) return;
+    if (f.id === 'lead-form' || f.hasAttribute('data-lead')) goal('lead_form');
+    if (f.id === 'feedback-form') goal('feedback_form');
   }, true);
 })();
