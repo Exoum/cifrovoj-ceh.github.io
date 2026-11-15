@@ -14,4 +14,4 @@ var LEAD_ENDPOINT = 'https://cifrovoj-ceh-leads.cifrovoj-ceh-leads.workers.dev';
 //    Пусто — счётчик не подключается (сайт работает как раньше).
 //    Цели: buy_click (клик по кнопке «Купить/Написать», параметр product),
 //    lead_form (отправка формы заявки). Логика — в js/metrika-init.js.
-var METRIKA_ID = '';
+var METRIKA_ID = '114261047';
