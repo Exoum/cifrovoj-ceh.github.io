@@ -13,14 +13,14 @@
   var P = {
     bundle: {
       tag: 'Выгоднее, чем по отдельности',
-      title: 'Весь набор — 10 продуктов одним архивом',
+      title: 'Весь набор — 12 продуктов одним архивом',
       bullets: [
-        'Все 10 шаблонов одним ZIP-архивом — от презентации до фонов для сторис',
+        'Все 12 продуктов одним ZIP-архивом — от презентации до сайта-визитки',
         'START_HERE.txt: карта набора — с чего начать и что где лежит',
         'Паспорт шаблона: ваши контакты и логотип подставляются во все файлы',
-        'Экономия 1 910 ₽ против покупки по отдельности'
+        'Экономия 3 290 ₽ против покупки по отдельности'
       ],
-      price: '3 990 ₽', old: '5 900 ₽', sub: 'подписчикам — 2 990 ₽', bot: 'shop_bundle',
+      price: '3 990 ₽', old: '7 280 ₽', sub: 'подписчикам — 2 990 ₽', bot: 'shop_bundle',
       mosaic: [
         [A + 'pres/slide_01.jpg', 'Презентация', 'pres'],
         [A + 'kp/offer_01.jpg', 'КП', 'kp'],
@@ -31,8 +31,34 @@
         [A + 'checklist/check_01.jpg', 'Чек-лист', 'checklist'],
         [A + 'invoice/invoice_01.jpg', 'Счёт', 'invoice'],
         [A + 'scripts/scripts_01.jpg', 'Скрипты', 'scripts'],
-        [A + 'bg/bg_03.jpg', 'Фоны', 'bg']
+        [A + 'bg/bg_03.jpg', 'Фоны', 'bg'],
+        [A + 'contract/contract_01.jpg', 'Договор', 'contract'],
+        [A + 'site/site_01.jpg', 'Сайт-визитка', 'site']
       ]
+    },
+    contract: {
+      tag: '2 стр. А4 · два режима оплаты',
+      title: 'Договор для самозанятого',
+      bullets: [
+        'Два режима: «с предоплатой 50%» и «без предоплаты» — переключаются кнопкой',
+        'Приложение № 1: таблица услуг, суммы строк и итог считаются сами',
+        'Приёмка «молчание = приёмка», пени 0,1%/день — уже прописаны',
+        'Памятка «5 пунктов» на экране; в PDF она не попадает'
+      ],
+      price: '690 ₽', sub: 'подписчикам 490 ₽', bot: 'shop_contract',
+      images: [A + 'contract/contract_01.jpg']
+    },
+    site: {
+      tag: 'Один файл · правка в браузере',
+      title: 'Сайт-визитка одним файлом',
+      bullets: [
+        'Имя и роль, услуги с ценами, работы, кнопки Telegram/WhatsApp/почта',
+        'Фото вставляются кликом и вживляются в файл при экспорте',
+        'Кнопка «⬇ Готовый сайт» собирает index.html со всеми правками',
+        'Бесплатная выкладка на GitHub Pages за 10 минут — пошагово в START_HERE'
+      ],
+      price: '690 ₽', sub: 'подписчикам 490 ₽', bot: 'shop_site',
+      images: [A + 'site/site_01.jpg']
     },
     pres: {
       tag: '12 слайдов · 3 палитры · PDF',
@@ -275,7 +301,8 @@
     shop_bundle: 'bundle', shop_pres_tpl: 'pres', shop_kp: 'kp',
     shop_resume: 'resume', shop_price: 'price', shop_card: 'card',
     shop_social: 'social', shop_checklist: 'checklist', shop_invoice: 'invoice',
-    shop_scripts: 'scripts', shop_bg: 'bg'
+    shop_scripts: 'scripts', shop_bg: 'bg',
+    shop_contract: 'contract', shop_site: 'site'
   };
 
   document.querySelectorAll('a[data-bot]').forEach(function (a) {
