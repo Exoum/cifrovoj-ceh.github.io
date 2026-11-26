@@ -207,7 +207,7 @@
 
   function botUrl(payload) {
     var bot = window.BOT_USERNAME;
-    return bot ? 'https://t.me/' + bot + '?start=' + payload : 'https://t.me/cifrovoj_ceh';
+    return bot ? 'https://t.me/' + bot + '?start=' + payload : 'https://t.me/cifrovoj_ceh_bot';
   }
 
   function show(i) {

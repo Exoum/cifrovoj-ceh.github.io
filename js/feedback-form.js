@@ -35,7 +35,7 @@
     }
 
     if (!window.LEAD_ENDPOINT) {
-      show('Форма ещё не подключена — напишите, пожалуйста, напрямую: t.me/cifrovoj_ceh', true);
+      show('Форма ещё не подключена — напишите, пожалуйста, напрямую: t.me/cifrovoj_ceh_bot', true);
       return;
     }
 
@@ -66,7 +66,7 @@
       .catch(function (err) {
         submitBtn.disabled = false;
         var why = (err && err.message) ? ' (' + err.message + ')' : '';
-        show('Не получилось отправить' + why + '. Напишите напрямую: t.me/cifrovoj_ceh', true);
+        show('Не получилось отправить' + why + '. Напишите напрямую: t.me/cifrovoj_ceh_bot', true);
       });
   });
 })();
